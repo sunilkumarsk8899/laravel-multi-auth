@@ -1,1 +1,25 @@
 https://github.com/share-tutorials-dev/invoice-html-css/tree/main
+
+
+create project
+npm i vue@latest
+npm i vue-loader@next
+npm i vue@next
+npm i vue-router@latest
+ npm run dev
+ npm i @vitejs/plugin-vue --force
+
+
+
+composer require laravel/breeze --dev
+php artisan breeze:install vue
+npm install
+npm run dev
+php artisan migrate
+
+
+
+
+create middleware -> php artisan make:middleware RoleMiddleware
+secound call middleware in bootstrap folder in app.php
+and AuthenticatedSessionController.php file in change logic
